@@ -1,15 +1,35 @@
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: sans-serif;
 }
+.container{
+width: 1140px;
+margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
 .p{
+    width: 425px;
     font-size: 16px;
     line-height: 26px;
     color: #1F3F68;
 }
 .h1{
+    width: 510px;
     font-size: 64px;
     color: #1F3F68;
+}
+.card-box{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 359px;
 }
 .h2{
     font-weight: 500;
@@ -24,6 +44,13 @@ body{
     font-size: 20px;
     line-height: 30px;
     color: #1F3F68;
+}
+.footer__info{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
 }
 .input{
     border: 1px solid #356EAD;
