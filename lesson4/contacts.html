@@ -8,24 +8,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="menu">
-        <ul>
+        <ul class="header">
             <li>Меню сайта:</li>
             <ol>
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="contacts.html">Контакты</a></li>
             </ol>
         </ul>
-    </div>
-    <div class="top__info">
+    <div class="contacts-header">
         <h2 class="h2">Contact Us</h2>
         <p class="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est rerum</p>
     </div>
     
     
-    <img src="./img/1.png" alt="изображение">
-    <div class="form">
+    
         <form action="#">
+        <div class="contacts-info">
+            <img src="./img/1.png" alt="изображение">
             <h4 class="h4">Address</h4>
             <p class="p">Lorem ipsum dolor sit amet, consectetur adipisicing </p>
             <h4 class="h4">Phone</h4>
@@ -38,25 +37,34 @@
                 <li><a href="Сайт">Сайт</a></li>
                 <li><a href="Почта">Почта</a></li>
             </ul>
-            <p class="p">Москва, Ленинградский проспект 39, строение 80 тел. 8-800-123-45-67</p>
+        </div>
+        <div class="form">
             <h4 class="h4">Send us message</h4>
             "Full Name" <input type="text" class="input"> <br>
             "Email" <input type="email" class="input"> <br>
             Message <textarea name="" id="" cols="30" rows="10" class="input"></textarea><br>
             <button class="button"> submit</button><br>
+        </div>
         </form>
-    </div>
-    
     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab5e4efa0f1f74c569f25a532436e127dc5018c1cbad23c3137f903b0fb0e3f77&amp;width=613&amp;height=240&amp;lang=ru_RU&amp;scroll=true"></script>
-    <h3 class="h3">Новый заголовок</h3>
-    <p class="p">Последний параграф на этой странице</p>
-    <hr>
-    <ul>
-        <li>произвольный текст не более 5 слов</li>
-        <li>номер телефона</li>
-        <li>адрес электронной почты</li>
-    </ul>
-    <p class="p">Все права защищены</p>
-    
+    <div class="footer">
+        <div class="footer__top">
+            <div class="footer__text">
+                <h3 class="h3">Новый заголовок</h3>
+                <p class="p">Последний параграф на этой странице.</p>
+            </div>
+        </div>
+        <hr>
+          <div class="footer_bottom">
+            <ul class="footer__info">
+                <li>произвольный текст не более 5 слов</li>
+                <li>номер телефона</li>
+                <li>адрес электронной почты</li>
+            </ul>
+        <div class="footer_copy">
+            <p class="p">Все права защищены</p>
+        </div>
+          </div>  
+    </div>    
 </body>
 </html>
